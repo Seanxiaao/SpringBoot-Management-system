@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: sells
+    password: 123456
+    url: jdbc:mysql://127.0.0.1/sells?characterEncoding=utf-8&useSSL=false&serverTimezone=PST
+  jpa:
+    show-sql: true
+  resources:
+    static-locations: classpath:static/, classpath:templates/
+  freemarker:
+    suffix: .ftl
+    template-loader-path: classpath:/templates/
+  redis:
+    host: 192.168.1.186
+    port: 6379
+
+server:
+  servlet:
+    context-path: /sell
+
+logging:
+  pattern:
+    console: "%d - %msg%n"
+  file:
+    path: /var/log/tomcat
+
+#wechat:
+#  mpAppId:wx6370f0a1719b0355
+#  mpAppSecret:a71a19f53cb49cb290fbd47054e4716e
