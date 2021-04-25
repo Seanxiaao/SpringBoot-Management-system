@@ -21,7 +21,10 @@ The project is an order management system and it's built by Maven, Springboot.
 
 
 ## Screenshot
-
+![](/preview/preview-1.png)
+![](/preview/preview-2.png)
+![](/preview/preview-3.png)
+![](/preview/preview-4.png)
 
 
 
